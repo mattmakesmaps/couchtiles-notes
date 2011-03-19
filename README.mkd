@@ -1,0 +1,8 @@
+couchtile notes
+===============
+
+_e-mail:_ matthewkenny AT gmail.com
+
+This repository will serve as a testbed for various
+projects before upload to the [CUGOS](http://www.cugos.org/)
+[OpenBaseMap](http://www.openbasemap.org) server.
