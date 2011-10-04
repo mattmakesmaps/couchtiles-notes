@@ -1,4 +1,0 @@
-Installing Fonts
-================
-
-* copy new fonts to '/usr/share/fonts/truetype'
