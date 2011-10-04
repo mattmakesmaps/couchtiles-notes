@@ -1,0 +1,14 @@
+HandDrawn Fonts
+===============
+
+# Source
+
+* Fonts were downloaded from [Google Web Fonts](http://www.google.com/webfonts#ChoosePlace:select/Collection:Walter+Turncoat|Short+Stack)
+
+* Short Stack - Created by [James Grieshaber](https://profiles.google.com/jamesgrieshaber/about)
+
+* Walter Turncoat - Created by [Sideshow](https://profiles.google.com/sideshowfonts/about)
+
+# Install
+
+* copy new fonts to '/usr/share/fonts/truetype'

@@ -1,0 +1,22 @@
+Hand Drawn
+==========
+
+Looks like it was drawn on a Sunday afternoon.
+
+# Data Sources
+
+* Style based on AJ Ashton's [Geography-Class](https://github.com/mapbox/tilemill/tree/master/examples/geography-class).
+* Fonts from [Google Web Fonts](http://www.google.com/webfonts#ChoosePlace:select/Collection:Walter+Turncoat|Short+Stack)
+* Icons from [Think Design](http://thinkdesignblog.com/120-handdrawn-vector-arrows.htm)
+
+# TODO
+
+## Styling
+
+* Add graph paper texture as background. Maybe a blue-pen like scribble for
+  the ocean background, instead.
+* Add hand drawn capital symbol (asterisk?).
+
+## Data
+
+* Move all data files to github folder, create symlinks in Mapbox Project.

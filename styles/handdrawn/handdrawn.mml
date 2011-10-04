@@ -1,0 +1,88 @@
+{
+  "bounds": [
+    -180,
+    -85.05112877980659,
+    180,
+    85.05112877980659
+  ],
+  "center": [
+    -24.976043701169925,
+    21.913745024653114,
+    3
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 0,
+  "maxzoom": 22,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss",
+    "labels.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "linestring",
+      "name": "grat5dd_ne",
+      "id": "grat5dd_ne",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "class": "",
+      "Datasource": {
+        "file": "/usr/share/mapbox/data/ne_110m_graticules_5.zip"
+      }
+    },
+    {
+      "id": "countries",
+      "name": "countries",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "geometry": "polygon",
+      "Datasource": {
+        "file": "/usr/share/mapbox/data/1aa2d236-10m-admin-0-countries.zip"
+      },
+      "class": ""
+    },
+    {
+      "geometry": "point",
+      "name": "country-name",
+      "id": "country-name",
+      "srs": "",
+      "class": "",
+      "Datasource": {
+        "file": "/usr/share/mapbox/data/b56c4047-10m-admin-0-country-points.zip"
+      }
+    },
+    {
+      "geometry": "point",
+      "name": "cities",
+      "id": "cities",
+      "srs": "",
+      "class": "",
+      "Datasource": {
+        "file": "/usr/share/mapbox/data/ef812f37-10m-populated-places-simple.zip"
+      }
+    },
+    {
+      "geometry": "linestring",
+      "name": "geo-lines",
+      "id": "geo-lines",
+      "srs": "",
+      "class": "",
+      "Datasource": {
+        "file": "/usr/share/mapbox/data/b0a28508-10m-geographic-lines.zip"
+      }
+    },
+    {
+      "geometry": "polygon",
+      "name": "paper",
+      "id": "paper",
+      "srs": "",
+      "class": "",
+      "Datasource": {
+        "file": "layers/world_extent_wgs84.geojson"
+      }
+    }
+  ],
+  "name": "Hand Drawn",
+  "description": "By the hands of an engineer!",
+  "attribution": "",
+  "legend": ""
+}
