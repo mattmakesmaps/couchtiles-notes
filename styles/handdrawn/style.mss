@@ -10,7 +10,7 @@ Map {
     line-width: 0.5;
 }
 
-#countries {
+#countries-no-lakes {
   ::outline {
     line-color: #6e6c6c;
     line-width: 2;

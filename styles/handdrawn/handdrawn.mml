@@ -6,9 +6,9 @@
     85.05112877980659
   ],
   "center": [
-    -80.88546752929484,
-    10.53237016494718,
-    3
+    46.160430908205285,
+    34.12658438322256,
+    6
   ],
   "format": "png",
   "interactivity": false,
@@ -41,6 +41,16 @@
       "class": ""
     },
     {
+      "geometry": "polygon",
+      "name": "countries-no-lakes",
+      "id": "countries-no-lakes",
+      "srs": "",
+      "class": "",
+      "Datasource": {
+        "file": "data/countries-no-lakes.shp"
+      }
+    },
+    {
       "geometry": "point",
       "name": "country-name",
       "id": "country-name",
@@ -51,16 +61,6 @@
       }
     },
     {
-      "geometry": "point",
-      "name": "cities",
-      "id": "cities",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
-      "class": "",
-      "Datasource": {
-        "file": "data/10m-populated-places-simple.shp"
-      }
-    },
-    {
       "geometry": "linestring",
       "name": "geo-lines",
       "id": "geo-lines",
@@ -68,6 +68,16 @@
       "class": "",
       "Datasource": {
         "file": "data/10m-geographic-lines.shp"
+      }
+    },
+    {
+      "geometry": "point",
+      "name": "cities",
+      "id": "cities",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "class": "",
+      "Datasource": {
+        "file": "data/10m-populated-places-simple.shp"
       }
     },
     {
