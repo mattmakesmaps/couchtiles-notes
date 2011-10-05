@@ -8,6 +8,7 @@ Looks like it was drawn on a Sunday afternoon.
 * Style based on AJ Ashton's [Geography-Class](https://github.com/mapbox/tilemill/tree/master/examples/geography-class).
 * Fonts from [Google Web Fonts](http://www.google.com/webfonts#ChoosePlace:select/Collection:Walter+Turncoat|Short+Stack)
 * Icons from [Think Design](http://thinkdesignblog.com/120-handdrawn-vector-arrows.htm)
+* Data from [Natural Earth Data](http://naturalearthdata.com)
 
 # TODO
 

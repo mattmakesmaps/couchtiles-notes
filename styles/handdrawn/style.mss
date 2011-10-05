@@ -1,4 +1,3 @@
-@line_org: #226688;
 @line_mk: #8a8a8a;
 @grat: #acacac;
 Map {
