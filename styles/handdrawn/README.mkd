@@ -20,3 +20,5 @@ Looks like it was drawn on a Sunday afternoon.
 ## Data
 
 * Move all data files to github folder, create symlinks in Mapbox Project.
+* Create data folder, and point .mml file to relative paths of new data locations.
+* figure out if .mml file can accept '.zip' directly, and unzip '.shp' on-the-fly.
