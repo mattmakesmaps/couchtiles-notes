@@ -10,7 +10,21 @@ Looks like it was drawn on a Sunday afternoon.
 * Icons from [Think Design](http://thinkdesignblog.com/120-handdrawn-vector-arrows.htm)
 * Data from [Natural Earth Data](http://naturalearthdata.com)
 
+# INSTALL NOTES
+
+1. Unzip data files
+
+  '''for f in *.zip;do unzip "$f";done'''
+
+2. Copy fonts to font dir
+
+3. add user to mapbox group
+
+  '''usermod -a -G mapbox <user>'''
+
 # TODO
+
+**make files group writable**
 
 ## Styling
 

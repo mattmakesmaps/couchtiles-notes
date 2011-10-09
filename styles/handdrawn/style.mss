@@ -1,4 +1,4 @@
-@line_mk: #8a8a8a;
+@line_mk: #7a7a7a;
 @grat: #acacac;
 Map {
   background-color: #f6f7f9;
