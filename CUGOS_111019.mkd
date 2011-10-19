@@ -60,7 +60,7 @@ See [install.sh](https://github.com/mattmakesmaps/couchtiles-notes/blob/master/s
   * copy fonts
   * unzip data
   * index shapefiles
-  * change data ownership to mapbox user/group
+  * change data ownership to mapbox user/group <-- because script is executed as root.
   * add user to the mapbox group
   * establish symlinks to project folder
 
