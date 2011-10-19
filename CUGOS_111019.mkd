@@ -1,7 +1,17 @@
 Managing TileMill Styles in Github
 ==================================
 
-# Objective
+# objective
 
 Sharing my successes and failures in creating a portable TileMill
 style, hosted on GitHub.
+
+# what/Why am I doing?
+
+* Began as an experiment with writing styles using TileMill.
+
+* Requirement/Want to work on multiple machines (work/home/netbook).
+  Hooray Github! The data/project management is just as interesting
+  as the styling.
+
+* **Goal** to share with others, allow anyone to improve.
