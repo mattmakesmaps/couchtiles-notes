@@ -1,0 +1,7 @@
+Managing TileMill Styles in Github
+==================================
+
+# Objective
+
+Sharing my successes and failures in creating a portable TileMill
+style, hosted on GitHub.
