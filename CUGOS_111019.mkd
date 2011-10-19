@@ -11,7 +11,7 @@ style, hosted on GitHub.
 * Began as an experiment with writing styles using TileMill.
 
 * Requirement/Want to work on multiple machines (work/home/netbook).
-  * Hooray Github! 
+  * Hooray GitHub! 
   * The data/project management is just as interesting as the styling.
 
 * **Goal** to share with others, allow anyone to improve.
@@ -24,7 +24,7 @@ style, hosted on GitHub.
 
 * Need to package those data along with the stylesheet itself.
 
-### geogrpahic datasets
+### geographic datasets
 
 * Need to manually edit a project's MML file to point to a relative pathway
   for the data source.
@@ -51,9 +51,18 @@ style, hosted on GitHub.
 
 # making it simple (that's what's hard)
 
-* began development of an installer script.
+* began development of an installer script. See [install.sh](https://github.com/mattmakesmaps/couchtiles-notes/blob/master/styles/handdrawn/install.sh)
 
 * Need to automate all pieces:
-  * list from notes
+  * list from notes:
+    * check distro
+    * copy fonts
+    * unzip data
+    * index shapefiles
+    * change data ownership to mapbox user/group
+    * add user to the mapbox group
+    * establish symlinks to project folder
 
 * Roadblocks
+  * Security issues with adding a user to a group?
+  * If script is executed as root, how do you determine a user's username?
