@@ -30,7 +30,7 @@ style, hosted on GitHub.
   for the data source.
 
 * Creating a project in TileMill, then adding a SHP layer through the GUI
-  interface defaults to absolute paths. See [handrawn.mml](https://github.com/mattmakesmaps/couchtiles-notes/blob/master/styles/handdrawn/handdrawn.mml)
+  interface defaults to absolute paths. See [handrawn.mml](https://github.com/mattmakesmaps/couchtiles-notes/blob/master/styles/handdrawn/handdrawn.mml#L50)
 
 ### icons
 
