@@ -1,12 +1,12 @@
-Managing TileMill Styles in Github
+Managing TileMill Styles in GitHub
 ==================================
 
-# objective
+# Objective
 
 Sharing my successes and failures in creating a portable TileMill
 style, hosted on GitHub.
 
-# what am I doing? why am I doing this?
+# What am I Doing? Why Am I Doing This?
 
 * Began as an experiment with writing styles using TileMill.
 
@@ -16,7 +16,7 @@ style, hosted on GitHub.
 
 * **Goal** to share with others, allow anyone to improve.
 
-# key concepts
+# Key Concepts
 
 ## file storage
 
@@ -38,7 +38,7 @@ style, hosted on GitHub.
 
 ### fonts
 
-* Fonts AFAIK must be manually copied to '/usr/share/fonts/truetype/'
+* Fonts AFAIK must be manually copied to `/usr/share/fonts/truetype/`
 
 ## symbolic link to github project
 
@@ -49,20 +49,27 @@ style, hosted on GitHub.
 
 * Easier then: change style in github directory --> copy to tilemill directory
 
-# making it simple (that's what's hard)
+# Making it Simple (that's what's hard)
 
-* began development of an installer script. See [install.sh](https://github.com/mattmakesmaps/couchtiles-notes/blob/master/styles/handdrawn/install.sh)
+## installer script
+
+See [install.sh](https://github.com/mattmakesmaps/couchtiles-notes/blob/master/styles/handdrawn/install.sh)
 
 * Need to automate all pieces:
-  * list from notes:
-    * check distro
-    * copy fonts
-    * unzip data
-    * index shapefiles
-    * change data ownership to mapbox user/group
-    * add user to the mapbox group
-    * establish symlinks to project folder
+  * check distro
+  * copy fonts
+  * unzip data
+  * index shapefiles
+  * change data ownership to mapbox user/group
+  * add user to the mapbox group
+  * establish symlinks to project folder
 
 * Roadblocks
   * Security issues with adding a user to a group?
   * If script is executed as root, how do you determine a user's username?
+
+## for the future
+
+* TileMill styles can be pointed to remote datasources (e.g. zipped SHPs).
+* Currently using fonts from [Google Web Fonts](http://www.google.com/webfonts#HomePlace:home), can these be
+  incorporated into TileMill styles?
