@@ -44,7 +44,9 @@ style, hosted on GitHub.
 
 * Tilemill looks for style in it's expected directory, but is taken
   to github projects folder.
+
 * Allows all github projects to be kept in a central location.
+
 * Easier then: change style in github directory --> copy to tilemill directory
 
 # making it simple (that's what's hard)
