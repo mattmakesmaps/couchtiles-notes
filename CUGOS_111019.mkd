@@ -16,4 +16,42 @@ style, hosted on GitHub.
 
 * **Goal** to share with others, allow anyone to improve.
 
+# key concepts
 
+## file storage
+
+* Custom data for this style include: Geographic Datasest, Icons, Fonts
+
+* Need to package those data along with the stylesheet itself.
+
+### geogrpahic datasets
+
+* Need to manually edit a project's MML file to point to a relative pathway
+  for the data source.
+
+* Creating a project in TileMill, then adding a SHP layer through the GUI
+  interface defaults to absolute paths. See [handrawn.mml](https://github.com/mattmakesmaps/couchtiles-notes/blob/master/styles/handdrawn/handdrawn.mml)
+
+### icons
+
+* Same goes for icons. See [labels.mss](https://github.com/mattmakesmaps/couchtiles-notes/blob/master/styles/handdrawn/labels.mss#L88)
+
+### fonts
+
+* Fonts AFAIK must be manually copied to '/usr/share/fonts/truetype/'
+
+## symbolic link to github project
+
+* Tilemill looks for style in it's expected directory, but is taken
+  to github projects folder.
+* Allows all github projects to be kept in a central location.
+* Easier then: change style in github directory --> copy to tilemill directory
+
+# making it simple (that's what's hard)
+
+* began development of an installer script.
+
+* Need to automate all pieces:
+  * list from notes
+
+* Roadblocks
